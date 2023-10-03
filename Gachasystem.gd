@@ -4,10 +4,14 @@ class_name Gachasystem
 var random = RandomNumberGenerator.new()
 #character dictionary
 var characterProbabilities = {
-		"Chris":0.6,
-		"Patricia":0.6,
+		"Common sword": 0.6,
+		"Common bow": 0.6,
+		"Common shield": 0.6,
+		"Common scepter": 0.6,
+		"Chris":0.3,
+		"Patricia":0.3,
 		"Leah":0.3, 
-		"Cherry":0.1
+		"Cherry":0.07
 } 
 
 func _init():
